@@ -4,8 +4,6 @@
 
 **Scitizia Landmarks 64** is a free pack of **17 famous Brazilian landmarks** modeled in low poly with a retro 64-bit console look, from all five regions of Brazil: Christ the Redeemer, Sugarloaf Mountain, Maracanã, the Niterói Contemporary Art Museum, MASP, São Paulo's cable-stayed bridge, the Curitiba Botanical Garden greenhouse, the São Miguel das Missões ruins, the National Congress, the Cathedral of Brasília, the JK Bridge, Pelourinho, Barra Lighthouse, the Lacerda Elevator, the Two Brothers Hills of Fernando de Noronha, the Amazon Theatre and the Ver-o-Peso iron market. Each one is a single binary glTF 2.0 file (`.glb`, 1,136 to 3,920 triangles) at approximate real-world scale, with flat-shaded faces, vertex colors and no textures, ready for real-time games, maps, dioramas and backgrounds. They were made for the opening trailer and the world of the browser racing game **Kaltror Rally**. Public domain (CC0 1.0).
 
-Download as a single ZIP (free, optional donation) on the [pack page](https://kkyqr.itch.io/scitizia-landmarks-64), or clone this repository.
-
 ## At a glance
 
 | | |
