@@ -1,0 +1,461 @@
+{
+ "nome": "Scitizia: monumentos 64 bits",
+ "name": "Scitizia Landmarks 64",
+ "versao": 1,
+ "autor": "Kayque Rotondo",
+ "licenca": "CC0-1.0",
+ "unidades": "metros; Y para cima; frente em +Z; origem no centro da base, com o chão em y = 0 (a laje do terreno afunda ~1 m e a água fica abaixo de 0)",
+ "units": "meters; Y up; front faces +Z; origin at the center of the base, ground level at y = 0 (the ground slab sinks ~1 m and water sits below 0)",
+ "campos": {
+  "dimensoes": "largura (X), altura (Y) e profundidade (Z) da caixa do modelo, em metros",
+  "base_y": "o ponto mais baixo do modelo (laje do chão, fundo do mar ou do rio)",
+  "triangulos": "triângulos do .glb",
+  "kb": "tamanho do .glb",
+  "materiais": "liso (cor por vértice, rugosidade 0,92) e vidro (cor por vértice, rugosidade 0,3); sem texturas"
+ },
+ "regioes": [
+  {
+   "region": "Southeast",
+   "regiao": "Sudeste",
+   "modelos": 6
+  },
+  {
+   "region": "South",
+   "regiao": "Sul",
+   "modelos": 2
+  },
+  {
+   "region": "Central-West",
+   "regiao": "Centro-Oeste",
+   "modelos": 3
+  },
+  {
+   "region": "Northeast",
+   "regiao": "Nordeste",
+   "modelos": 4
+  },
+  {
+   "region": "North",
+   "regiao": "Norte",
+   "modelos": 2
+  }
+ ],
+ "modelos": [
+  {
+   "id": "cristo_redentor",
+   "nome": "Cristo Redentor",
+   "name": "Christ the Redeemer",
+   "cidade": "Rio de Janeiro",
+   "uf": "RJ",
+   "regiao": "Sudeste",
+   "region": "Southeast",
+   "descricao": "Estátua de braços abertos no alto do Corcovado, com o pedestal, o terraço do mirante e o morro coberto de mata",
+   "description": "Open-armed statue on top of Corcovado hill, with its pedestal, the viewing terrace and the forested hill",
+   "triangulos": 2018,
+   "kb": 215.8,
+   "dimensoes": [
+    382.983,
+    194.71,
+    162.677
+   ],
+   "base_y": -0.517,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/cristo_redentor.glb",
+   "previa": "previas/cristo_redentor.png"
+  },
+  {
+   "id": "pao_de_acucar",
+   "nome": "Pão de Açúcar",
+   "name": "Sugarloaf Mountain",
+   "cidade": "Rio de Janeiro",
+   "uf": "RJ",
+   "regiao": "Sudeste",
+   "region": "Southeast",
+   "descricao": "Os morros do Pão de Açúcar e da Urca com mata, as duas estações e a cabine do bondinho no cabo",
+   "description": "Sugarloaf and Urca hills with forest, both cable car stations and the cabin hanging on the cable",
+   "triangulos": 3898,
+   "kb": 424.9,
+   "dimensoes": [
+    1104.893,
+    406.427,
+    365.019
+   ],
+   "base_y": -2.227,
+   "materiais": [
+    "liso",
+    "vidro"
+   ],
+   "arquivo": "modelos/pao_de_acucar.glb",
+   "previa": "previas/pao_de_acucar.png"
+  },
+  {
+   "id": "maracana",
+   "nome": "Maracanã",
+   "name": "Maracanã Stadium",
+   "cidade": "Rio de Janeiro",
+   "uf": "RJ",
+   "regiao": "Sudeste",
+   "region": "Southeast",
+   "descricao": "Anel elíptico baixo com a fachada vazada de pilares, as cintas, a cobertura branca, a arquibancada azul e amarela e o gramado listrado",
+   "description": "Low elliptical bowl with the open facade of slanted pillars, ring beams, white roof, blue and yellow stands and the striped pitch",
+   "triangulos": 3920,
+   "kb": 269.4,
+   "dimensoes": [
+    380,
+    35.4,
+    336
+   ],
+   "base_y": -1,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/maracana.glb",
+   "previa": "previas/maracana.png"
+  },
+  {
+   "id": "mac_niteroi",
+   "nome": "MAC Niterói",
+   "name": "Niterói Contemporary Art Museum",
+   "cidade": "Niterói",
+   "uf": "RJ",
+   "regiao": "Sudeste",
+   "region": "Southeast",
+   "descricao": "O cálice branco sobre o pilar central, a faixa de janelas, o espelho d'água, a rampa vermelha em curva e o mirante de pedra sobre o mar",
+   "description": "The white saucer on its central column, the window band, the reflecting pool, the curving red ramp and the rocky lookout over the sea",
+   "triangulos": 2444,
+   "kb": 177.8,
+   "dimensoes": [
+    156,
+    28.6,
+    156
+   ],
+   "base_y": -12,
+   "materiais": [
+    "liso",
+    "vidro"
+   ],
+   "arquivo": "modelos/mac_niteroi.glb",
+   "previa": "previas/mac_niteroi.png"
+  },
+  {
+   "id": "masp",
+   "nome": "MASP",
+   "name": "São Paulo Museum of Art",
+   "cidade": "São Paulo",
+   "uf": "SP",
+   "regiao": "Sudeste",
+   "region": "Southeast",
+   "descricao": "Caixa de vidro suspensa pelos pórticos vermelhos sobre o vão livre, com o belvedere e as árvores",
+   "description": "Glass box hung from the red portal frames over the open span, with the belvedere and its trees",
+   "triangulos": 1512,
+   "kb": 127.1,
+   "dimensoes": [
+    124,
+    24.1,
+    92
+   ],
+   "base_y": -1,
+   "materiais": [
+    "liso",
+    "vidro"
+   ],
+   "arquivo": "modelos/masp.glb",
+   "previa": "previas/masp.png"
+  },
+  {
+   "id": "ponte_estaiada",
+   "nome": "Ponte Estaiada",
+   "name": "São Paulo Cable-Stayed Bridge",
+   "cidade": "São Paulo",
+   "uf": "SP",
+   "regiao": "Sudeste",
+   "region": "Southeast",
+   "descricao": "Mastro em X de 138 m com os estais em leque e as duas pistas curvas que se cruzam em níveis diferentes sobre o rio e as marginais",
+   "description": "138 m X-shaped pylon with fans of stay cables and two curved decks crossing at different levels over the river and its riverside roads",
+   "triangulos": 1584,
+   "kb": 128.3,
+   "dimensoes": [
+    460,
+    144.2,
+    430
+   ],
+   "base_y": -4,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/ponte_estaiada.glb",
+   "previa": "previas/ponte_estaiada.png"
+  },
+  {
+   "id": "estufa_jardim_botanico",
+   "nome": "Estufa do Jardim Botânico",
+   "name": "Botanical Garden Greenhouse",
+   "cidade": "Curitiba",
+   "uf": "PR",
+   "regiao": "Sul",
+   "region": "South",
+   "descricao": "Estufa de ferro e vidro com a cúpula central e as duas alas em abóbada, e o jardim geométrico com canteiros, chafarizes e ciprestes",
+   "description": "Iron-and-glass greenhouse with a central dome and two vaulted wings, and the formal garden with flower beds, fountains and clipped conifers",
+   "triangulos": 3260,
+   "kb": 249.9,
+   "dimensoes": [
+    92,
+    24.1,
+    94
+   ],
+   "base_y": -1,
+   "materiais": [
+    "liso",
+    "vidro"
+   ],
+   "arquivo": "modelos/estufa_jardim_botanico.glb",
+   "previa": "previas/estufa_jardim_botanico.png"
+  },
+  {
+   "id": "sao_miguel_das_missoes",
+   "nome": "Ruínas de São Miguel das Missões",
+   "name": "São Miguel das Missões Ruins",
+   "cidade": "São Miguel das Missões",
+   "uf": "RS",
+   "regiao": "Sul",
+   "region": "South",
+   "descricao": "Fachada da igreja em arenito avermelhado com o pórtico de cinco arcos, o frontão e a torre sineira em ruína, as paredes da nave e o campo aberto",
+   "description": "Red sandstone church facade with the five-arch portico, the pediment and the ruined bell tower, the remains of the nave walls and the open field",
+   "triangulos": 1620,
+   "kb": 122.8,
+   "dimensoes": [
+    96,
+    27.5,
+    126
+   ],
+   "base_y": -1,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/sao_miguel_das_missoes.glb",
+   "previa": "previas/sao_miguel_das_missoes.png"
+  },
+  {
+   "id": "congresso_nacional",
+   "nome": "Congresso Nacional",
+   "name": "National Congress",
+   "cidade": "Brasília",
+   "uf": "DF",
+   "regiao": "Centro-Oeste",
+   "region": "Central-West",
+   "descricao": "As duas torres em H, a cúpula do Senado, a cuba da Câmara, a laje longa, a rampa e os espelhos d'água",
+   "description": "Twin H-shaped towers, the Senate dome, the upturned bowl of the Chamber, the long platform, the ramp and the reflecting pools",
+   "triangulos": 2756,
+   "kb": 196.6,
+   "dimensoes": [
+    300,
+    101.044,
+    260
+   ],
+   "base_y": -1.044,
+   "materiais": [
+    "liso",
+    "vidro"
+   ],
+   "arquivo": "modelos/congresso_nacional.glb",
+   "previa": "previas/congresso_nacional.png"
+  },
+  {
+   "id": "catedral_brasilia",
+   "nome": "Catedral de Brasília",
+   "name": "Cathedral of Brasília",
+   "cidade": "Brasília",
+   "uf": "DF",
+   "regiao": "Centro-Oeste",
+   "region": "Central-West",
+   "descricao": "As 16 colunas curvas de concreto em hiperboloide, os vitrais azuis, verdes e brancos, o espelho d'água, o campanário e os quatro evangelistas",
+   "description": "16 curved concrete columns forming a hyperboloid, blue, green and white stained glass, the reflecting pool, the bell tower and the four evangelists",
+   "triangulos": 3322,
+   "kb": 249.1,
+   "dimensoes": [
+    150,
+    43.083,
+    150
+   ],
+   "base_y": -1.244,
+   "materiais": [
+    "liso",
+    "vidro"
+   ],
+   "arquivo": "modelos/catedral_brasilia.glb",
+   "previa": "previas/catedral_brasilia.png"
+  },
+  {
+   "id": "ponte_jk",
+   "nome": "Ponte JK",
+   "name": "JK Bridge",
+   "cidade": "Brasília",
+   "uf": "DF",
+   "regiao": "Centro-Oeste",
+   "region": "Central-West",
+   "descricao": "Três arcos de aço assimétricos que cruzam o tabuleiro em diagonal, os pendurais, os pilares e o lago (1,2 km de ponta a ponta)",
+   "description": "Three asymmetric steel arches crossing the deck diagonally, the hangers, the piers and the lake (1.2 km end to end)",
+   "triangulos": 3056,
+   "kb": 227.7,
+   "dimensoes": [
+    1260,
+    65.775,
+    220
+   ],
+   "base_y": -3,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/ponte_jk.glb",
+   "previa": "previas/ponte_jk.png"
+  },
+  {
+   "id": "pelourinho",
+   "nome": "Pelourinho",
+   "name": "Pelourinho",
+   "cidade": "Salvador",
+   "uf": "BA",
+   "regiao": "Nordeste",
+   "region": "Northeast",
+   "descricao": "Ladeira de casarões coloniais coloridos com sacadas e telhados de telha, e a igreja azul no alto",
+   "description": "Sloping street of colourful colonial townhouses with balconies and tiled roofs, and the blue church at the top",
+   "triangulos": 2564,
+   "kb": 196.4,
+   "dimensoes": [
+    92,
+    32.1,
+    48
+   ],
+   "base_y": -0.6,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/pelourinho.glb",
+   "previa": "previas/pelourinho.png"
+  },
+  {
+   "id": "farol_da_barra",
+   "nome": "Farol da Barra",
+   "name": "Barra Lighthouse",
+   "cidade": "Salvador",
+   "uf": "BA",
+   "regiao": "Nordeste",
+   "region": "Northeast",
+   "descricao": "Forte de pedra com guaritas sobre a ponta de rocha, a casa do faroleiro e o farol listrado em preto e branco",
+   "description": "Stone fort with sentry boxes on a rocky point, the keeper's house and the black-and-white striped lighthouse",
+   "triangulos": 1136,
+   "kb": 93.3,
+   "dimensoes": [
+    128,
+    35.758,
+    128
+   ],
+   "base_y": -2.658,
+   "materiais": [
+    "liso",
+    "vidro"
+   ],
+   "arquivo": "modelos/farol_da_barra.glb",
+   "previa": "previas/farol_da_barra.png"
+  },
+  {
+   "id": "elevador_lacerda",
+   "nome": "Elevador Lacerda",
+   "name": "Lacerda Elevator",
+   "cidade": "Salvador",
+   "uf": "BA",
+   "regiao": "Nordeste",
+   "region": "Northeast",
+   "descricao": "Torre art déco de 72 m ao pé da falésia, a passarela até a Cidade Alta, o casario no alto e a praça da Cidade Baixa",
+   "description": "72 m art deco tower at the foot of the escarpment, the footbridge to the Upper Town, the houses along the top and the Lower Town square",
+   "triangulos": 2664,
+   "kb": 234.3,
+   "dimensoes": [
+    120.002,
+    77.4,
+    180
+   ],
+   "base_y": -1,
+   "materiais": [
+    "liso",
+    "vidro"
+   ],
+   "arquivo": "modelos/elevador_lacerda.glb",
+   "previa": "previas/elevador_lacerda.png"
+  },
+  {
+   "id": "morro_dois_irmaos",
+   "nome": "Morro Dois Irmãos",
+   "name": "Two Brothers Hills",
+   "cidade": "Fernando de Noronha",
+   "uf": "PE",
+   "regiao": "Nordeste",
+   "region": "Northeast",
+   "descricao": "As duas formações rochosas gêmeas saindo do mar, com mata no alto e pedras na linha d'água",
+   "description": "Twin rock hills rising from the sea, with forest on top and rocks at the waterline",
+   "triangulos": 1620,
+   "kb": 174.9,
+   "dimensoes": [
+    160,
+    52.769,
+    160
+   ],
+   "base_y": -6,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/morro_dois_irmaos.glb",
+   "previa": "previas/morro_dois_irmaos.png"
+  },
+  {
+   "id": "teatro_amazonas",
+   "nome": "Teatro Amazonas",
+   "name": "Amazon Theatre",
+   "cidade": "Manaus",
+   "uf": "AM",
+   "regiao": "Norte",
+   "region": "North",
+   "descricao": "Teatro rosa com colunata e frontão brancos, a cúpula de mosaico verde, amarelo e azul e a praça com ondas de pedra portuguesa",
+   "description": "Pink opera house with white colonnade and pediment, the green, yellow and blue mosaic dome and the square with its wave-patterned pavement",
+   "triangulos": 3278,
+   "kb": 251.1,
+   "dimensoes": [
+    120,
+    43.7,
+    145.297
+   ],
+   "base_y": -1,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/teatro_amazonas.glb",
+   "previa": "previas/teatro_amazonas.png"
+  },
+  {
+   "id": "ver_o_peso",
+   "nome": "Ver-o-Peso",
+   "name": "Ver-o-Peso Iron Market",
+   "cidade": "Belém",
+   "uf": "PA",
+   "regiao": "Norte",
+   "region": "North",
+   "descricao": "Mercado de ferro cinza-azulado com as quatro torres de coruchéu pontiagudo, o telhado com lanternim, o cais e barcos coloridos no rio",
+   "description": "Bluish-grey iron market hall with four pointed corner turrets, the roof with its clerestory, the quay and colourful boats on the river",
+   "triangulos": 1652,
+   "kb": 127.4,
+   "dimensoes": [
+    124,
+    30.8,
+    115
+   ],
+   "base_y": -3.5,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/ver_o_peso.glb",
+   "previa": "previas/ver_o_peso.png"
+  }
+ ]
+}
