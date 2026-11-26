@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use these models, you can cite this repository (optional: the models are in the public domain)."
-title: "Scitizia Landmarks 64: 17 low poly Brazilian landmarks in glTF/GLB"
+title: "Brazil Landmarks Low Poly: 31 low poly Brazilian landmarks in glTF/GLB"
 type: dataset
 authors:
   - given-names: Kayque
@@ -10,7 +10,7 @@ repository-code: "https://github.com/kayquer/scitizia-monumentos-64"
 url: "https://github.com/kayquer/scitizia-monumentos-64"
 license: CC0-1.0
 date-released: "2026-11-26"
-abstract: "17 famous Brazilian landmarks modeled in low poly with a retro 64-bit console look (Christ the Redeemer, Sugarloaf Mountain, Maracanã, Cathedral of Brasília, Amazon Theatre and more), one binary glTF 2.0 file each, at approximate real-world scale, with vertex colors and no textures, plus previews and a JSON catalog."
+abstract: "31 famous Brazilian landmarks modeled in low poly with a retro 64-bit console look (Christ the Redeemer, Sugarloaf Mountain, Iguazu Falls, Maracanã, Cathedral of Brasília, Amazon Theatre and more), one binary glTF 2.0 file each, at approximate real-world scale, with vertex colors and no textures, plus previews and a JSON catalog."
 keywords:
   - low poly
   - landmarks

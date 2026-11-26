@@ -1,7 +1,7 @@
 {
- "nome": "Scitizia: monumentos 64 bits",
- "name": "Scitizia Landmarks 64",
- "versao": 1,
+ "nome": "Monumentos do Brasil em low poly",
+ "name": "Brazil Landmarks Low Poly",
+ "versao": 2,
  "autor": "Kayque Rotondo",
  "licenca": "CC0-1.0",
  "unidades": "metros; Y para cima; frente em +Z; origem no centro da base, com o chão em y = 0 (a laje do terreno afunda ~1 m e a água fica abaixo de 0)",
@@ -22,22 +22,22 @@
   {
    "region": "South",
    "regiao": "Sul",
-   "modelos": 2
+   "modelos": 6
   },
   {
    "region": "Central-West",
    "regiao": "Centro-Oeste",
-   "modelos": 3
+   "modelos": 6
   },
   {
    "region": "Northeast",
    "regiao": "Nordeste",
-   "modelos": 4
+   "modelos": 7
   },
   {
    "region": "North",
    "regiao": "Norte",
-   "modelos": 2
+   "modelos": 6
   }
  ],
  "modelos": [
@@ -214,6 +214,103 @@
    "previa": "previas/estufa_jardim_botanico.png"
   },
   {
+   "id": "opera_de_arame",
+   "nome": "Ópera de Arame",
+   "name": "Wire Opera House",
+   "cidade": "Curitiba",
+   "uf": "PR",
+   "regiao": "Sul",
+   "region": "South",
+   "descricao": "Teatro circular de tubos de aço brancos e cúpula transparente sobre um lago, com a passarela tubular, o paredão da antiga pedreira e a mata",
+   "description": "Round theatre of white steel tubes with a transparent roof on a lake, with the tubular footbridge, the old quarry wall and the forest",
+   "triangulos": 2648,
+   "kb": 222.3,
+   "dimensoes": [
+    156,
+    31.675,
+    143.52
+   ],
+   "base_y": -2.4,
+   "materiais": [
+    "liso",
+    "vidro"
+   ],
+   "arquivo": "modelos/opera_de_arame.glb",
+   "previa": "previas/opera_de_arame.png"
+  },
+  {
+   "id": "cataratas_do_iguacu",
+   "nome": "Cataratas do Iguaçu (Garganta do Diabo)",
+   "name": "Iguazu Falls (Devil's Throat)",
+   "cidade": "Foz do Iguaçu",
+   "uf": "PR",
+   "regiao": "Sul",
+   "region": "South",
+   "descricao": "Paredões de basalto em degraus, em forma de U, com várias quedas d'água, a nuvem de espuma, a passarela metálica sobre o rio e a mata nas margens",
+   "description": "U-shaped stepped basalt cliffs with many waterfalls, the cloud of spray, the metal walkway over the river and the forest on the banks",
+   "triangulos": 1620,
+   "kb": 147,
+   "dimensoes": [
+    132,
+    41.056,
+    140
+   ],
+   "base_y": -3.431,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/cataratas_do_iguacu.glb",
+   "previa": "previas/cataratas_do_iguacu.png"
+  },
+  {
+   "id": "ponte_hercilio_luz",
+   "nome": "Ponte Hercílio Luz",
+   "name": "Hercílio Luz Bridge",
+   "cidade": "Florianópolis",
+   "uf": "SC",
+   "regiao": "Sul",
+   "region": "South",
+   "descricao": "Ponte pênsil de aço com as duas torres em H, as correntes de barras de olhal que viram treliça e o tabuleiro reto sobre o canal (820 m de ponta a ponta)",
+   "description": "Steel suspension bridge with two H-shaped towers, the eyebar chains that turn into a truss and the straight deck over the channel (820 m end to end)",
+   "triangulos": 2724,
+   "kb": 221.3,
+   "dimensoes": [
+    900,
+    83,
+    220
+   ],
+   "base_y": -3,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/ponte_hercilio_luz.glb",
+   "previa": "previas/ponte_hercilio_luz.png"
+  },
+  {
+   "id": "portico_gramado",
+   "nome": "Pórtico de Gramado",
+   "name": "Gramado Gateway",
+   "cidade": "Gramado",
+   "uf": "RS",
+   "regiao": "Sul",
+   "region": "South",
+   "descricao": "Portal em enxaimel sobre a avenida, com o telhado muito inclinado, as vigas escuras sobre paredes claras, a torre pontiaguda, floreiras e hortênsias",
+   "description": "Half-timbered gateway over the avenue, with the steep roof, dark beams on light walls, the pointed tower, window boxes and hydrangeas",
+   "triangulos": 2366,
+   "kb": 197.1,
+   "dimensoes": [
+    84,
+    32.8,
+    84
+   ],
+   "base_y": -1,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/portico_gramado.glb",
+   "previa": "previas/portico_gramado.png"
+  },
+  {
    "id": "sao_miguel_das_missoes",
    "nome": "Ruínas de São Miguel das Missões",
    "name": "São Miguel das Missões Ruins",
@@ -310,6 +407,79 @@
    ],
    "arquivo": "modelos/ponte_jk.glb",
    "previa": "previas/ponte_jk.png"
+  },
+  {
+   "id": "palacio_da_alvorada",
+   "nome": "Palácio da Alvorada",
+   "name": "Alvorada Palace",
+   "cidade": "Brasília",
+   "uf": "DF",
+   "regiao": "Centro-Oeste",
+   "region": "Central-West",
+   "descricao": "Caixa de vidro baixa sob a laje branca, a colunata de colunas curvas que só tocam o chão num ponto, o espelho d'água, a rampa e a capela",
+   "description": "Low glass box under the white roof slab, the colonnade of curved columns that touch the ground at a single point, the reflecting pool, the ramp and the chapel",
+   "triangulos": 3194,
+   "kb": 215.6,
+   "dimensoes": [
+    190,
+    23.4,
+    135
+   ],
+   "base_y": -1.4,
+   "materiais": [
+    "liso",
+    "vidro"
+   ],
+   "arquivo": "modelos/palacio_da_alvorada.glb",
+   "previa": "previas/palacio_da_alvorada.png"
+  },
+  {
+   "id": "igreja_pirenopolis",
+   "nome": "Igreja Matriz de Nossa Senhora do Rosário",
+   "name": "Mother Church of Our Lady of the Rosary",
+   "cidade": "Pirenópolis",
+   "uf": "GO",
+   "regiao": "Centro-Oeste",
+   "region": "Central-West",
+   "descricao": "Igreja colonial caiada de branco com cunhais e molduras escuras, telhado de barro, duas torres sineiras quadradas, o adro de pedra e o cruzeiro",
+   "description": "Whitewashed colonial church with dark corner pilasters and frames, clay tile roof, two square bell towers, the stone forecourt and the wayside cross",
+   "triangulos": 908,
+   "kb": 75.2,
+   "dimensoes": [
+    84,
+    24.402,
+    96
+   ],
+   "base_y": -1.002,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/igreja_pirenopolis.glb",
+   "previa": "previas/igreja_pirenopolis.png"
+  },
+  {
+   "id": "monumento_tuiuius",
+   "nome": "Monumento aos Tuiuiús",
+   "name": "Jabiru Monument",
+   "cidade": "Campo Grande",
+   "uf": "MS",
+   "regiao": "Centro-Oeste",
+   "region": "Central-West",
+   "descricao": "Três tuiuiús de metal branco em fases do voo, de asas abertas e pescoço comprido, sobre a base curva de concreto no meio do espelho d'água",
+   "description": "Three white metal jabiru storks in different stages of flight, wings open and necks stretched, on the curved concrete base in a reflecting pool",
+   "triangulos": 1260,
+   "kb": 103.4,
+   "dimensoes": [
+    92,
+    21.276,
+    92
+   ],
+   "base_y": -1.4,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/monumento_tuiuius.glb",
+   "previa": "previas/monumento_tuiuius.png"
   },
   {
    "id": "pelourinho",
@@ -410,6 +580,78 @@
    "previa": "previas/morro_dois_irmaos.png"
   },
   {
+   "id": "forte_reis_magos",
+   "nome": "Forte dos Reis Magos",
+   "name": "Fort of the Three Kings",
+   "cidade": "Natal",
+   "uf": "RN",
+   "regiao": "Nordeste",
+   "region": "Northeast",
+   "descricao": "Fortaleza de pedra clara em estrela de cinco pontas, com muralhas inclinadas, guaritas nas pontas, o pátio, o portão e a ponte, sobre os recifes no mar",
+   "description": "Light stone fort shaped as a five-pointed star, with sloping walls, sentry boxes on the points, the courtyard, the gate and the causeway, on the reefs in the sea",
+   "triangulos": 1224,
+   "kb": 108.8,
+   "dimensoes": [
+    124,
+    19.5,
+    132
+   ],
+   "base_y": -2.5,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/forte_reis_magos.glb",
+   "previa": "previas/forte_reis_magos.png"
+  },
+  {
+   "id": "parque_esculturas_brennand",
+   "nome": "Parque das Esculturas Francisco Brennand",
+   "name": "Francisco Brennand Sculpture Park",
+   "cidade": "Recife",
+   "uf": "PE",
+   "regiao": "Nordeste",
+   "region": "Northeast",
+   "descricao": "A Torre de Cristal de cerâmica e bronze dourado no molhe de pedras no meio do mar, as esculturas menores, a rosa dos ventos do Marco Zero e o casario do Recife Antigo",
+   "description": "The Crystal Tower in ceramic and golden bronze on the stone breakwater in the sea, the smaller sculptures, the Marco Zero compass rose and the old Recife waterfront houses",
+   "triangulos": 3054,
+   "kb": 262,
+   "dimensoes": [
+    180,
+    36.6,
+    142
+   ],
+   "base_y": -3,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/parque_esculturas_brennand.glb",
+   "previa": "previas/parque_esculturas_brennand.png"
+  },
+  {
+   "id": "olinda_alto_da_se",
+   "nome": "Alto da Sé, Olinda",
+   "name": "Alto da Sé, Olinda",
+   "cidade": "Olinda",
+   "uf": "PE",
+   "regiao": "Nordeste",
+   "region": "Northeast",
+   "descricao": "Colina com a Sé branca de duas torres, o casario colonial colorido dos dois lados da ladeira de paralelepípedo, coqueiros e a praia lá embaixo",
+   "description": "Hilltop with the white two-tower cathedral, colourful colonial houses on both sides of the cobbled slope, coconut palms and the beach below",
+   "triangulos": 3610,
+   "kb": 292.5,
+   "dimensoes": [
+    190,
+    46.9,
+    204
+   ],
+   "base_y": -2.5,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/olinda_alto_da_se.glb",
+   "previa": "previas/olinda_alto_da_se.png"
+  },
+  {
    "id": "teatro_amazonas",
    "nome": "Teatro Amazonas",
    "name": "Amazon Theatre",
@@ -456,6 +698,104 @@
    ],
    "arquivo": "modelos/ver_o_peso.glb",
    "previa": "previas/ver_o_peso.png"
+  },
+  {
+   "id": "forte_do_presepio",
+   "nome": "Forte do Presépio",
+   "name": "Presépio Fort",
+   "cidade": "Belém",
+   "uf": "PA",
+   "regiao": "Norte",
+   "region": "North",
+   "descricao": "Muralhas baixas de pedra com parapeito branco à beira da baía, guaritas nos cantos, canhões voltados para a água, o pátio gramado e barcos regionais",
+   "description": "Low stone walls with a white parapet on the bay, sentry boxes at the corners, cannons facing the water, the grassy courtyard and regional boats",
+   "triangulos": 980,
+   "kb": 83.2,
+   "dimensoes": [
+    150,
+    13.2,
+    155
+   ],
+   "base_y": -3,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/forte_do_presepio.glb",
+   "previa": "previas/forte_do_presepio.png"
+  },
+  {
+   "id": "basilica_nazare",
+   "nome": "Basílica Santuário de Nazaré",
+   "name": "Basilica Sanctuary of Nazaré",
+   "cidade": "Belém",
+   "uf": "PA",
+   "regiao": "Norte",
+   "region": "North",
+   "descricao": "Igreja neoclássica com a fachada de mármore, as laterais de tijolo, duas torres sineiras, o frontão, a rosácea, a escadaria e a praça arborizada",
+   "description": "Neoclassical church with the marble facade, brick side walls, two bell towers, the pediment, the rose window, the front steps and the tree-lined square",
+   "triangulos": 1512,
+   "kb": 124.9,
+   "dimensoes": [
+    124,
+    49.742,
+    148
+   ],
+   "base_y": -1.142,
+   "materiais": [
+    "liso",
+    "vidro"
+   ],
+   "arquivo": "modelos/basilica_nazare.glb",
+   "previa": "previas/basilica_nazare.png"
+  },
+  {
+   "id": "fortaleza_macapa",
+   "nome": "Fortaleza de São José de Macapá",
+   "name": "Fortress of São José de Macapá",
+   "cidade": "Macapá",
+   "uf": "AP",
+   "regiao": "Norte",
+   "region": "North",
+   "descricao": "Forte quadrado de pedra escura com quatro baluartes pentagonais, o fosso, as guaritas, a ponte do portão, os quartéis brancos e o Rio Amazonas",
+   "description": "Square dark stone fortress with four pentagonal bastions, the moat, sentry boxes, the gate bridge, white barracks and the Amazon River",
+   "triangulos": 1232,
+   "kb": 99.1,
+   "dimensoes": [
+    270,
+    20.6,
+    330
+   ],
+   "base_y": -3,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/fortaleza_macapa.glb",
+   "previa": "previas/fortaleza_macapa.png"
+  },
+  {
+   "id": "palacio_araguaia",
+   "nome": "Palácio Araguaia",
+   "name": "Araguaia Palace",
+   "cidade": "Palmas",
+   "uf": "TO",
+   "regiao": "Norte",
+   "region": "North",
+   "descricao": "Sede do governo modernista com fachada de vidro, colunas brancas monumentais sob a laje, a cúpula baixa, os mastros e a praça geométrica com palmeiras",
+   "description": "Modernist seat of government with a glass facade, monumental white columns under the roof slab, the low dome, the flagpoles and the geometric square with palm trees",
+   "triangulos": 2514,
+   "kb": 202.6,
+   "dimensoes": [
+    184,
+    27.3,
+    184
+   ],
+   "base_y": -1,
+   "materiais": [
+    "liso",
+    "vidro"
+   ],
+   "arquivo": "modelos/palacio_araguaia.glb",
+   "previa": "previas/palacio_araguaia.png"
   }
  ]
 }
